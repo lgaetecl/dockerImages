@@ -1,6 +1,7 @@
 FROM golang:alpine
 LABEL maintainer="lgaete.astudillo@gmail.com"
 
+RUN apk add --no-cache --virtual build-base
 RUN apk add --no-cache --virtual make
 RUN apk add --no-cache --virtual git 
 RUN apk add --no-cache --virtual bash
