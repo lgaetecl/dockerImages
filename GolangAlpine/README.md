@@ -6,6 +6,7 @@ Se crea imagen debido a que versión actual de Kubernetes utilizando [Kismatic](
 Esta imagen contempla los siguientes paquetes adicionales a la imagen base:
 
 - make
+- gcc
 - git
 - bash
 - openssl
